@@ -4,7 +4,11 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-6">
-						<p>&copy; EMORE SYSTEMS</p>
+						<?php
+							$year = date('Y');
+							echo "<p>&copy; $year EMORE SYSTEMS</p>";
+						?>
+
 					</div>
 					<div class="col-sm-6">
 						<ul class="list-inline">
