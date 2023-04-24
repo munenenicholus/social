@@ -32,12 +32,7 @@
 			<li class="nav-item active">
 				<a class="nav-link" href="../contact.php">Contact <span class="sr-only">(current)</span></a>
 			</li>
-			</ul>
-			<ul class="navbar-nav ml-auto">
-			<li class="nav-item">
-				<a class="nav-link">Welcome</i></a>
-			</li>
-			</ul>
+			</ul>			
 		</div>
 		</nav>
 		<!-- end of nav bar specifically for signup page-->

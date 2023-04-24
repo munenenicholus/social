@@ -26,8 +26,10 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+	
 	<!-- Navbar -->
 	<?php require 'mainincludes/nav.php'; ?>
+	
 
 	<!-- Jumbotron -->
 	<div class="jumbotron" style="background-image: url('images/bg.jpg');">

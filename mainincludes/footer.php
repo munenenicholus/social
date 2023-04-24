@@ -4,10 +4,12 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-sm-6">
+
 						<?php
 							$year = date('Y');
-							echo "<p>&copy; $year EMORE SYSTEMS</p>";
+							echo "Copyright © $year Emore Systems";
 						?>
+
 
 					</div>
 					<div class="col-sm-6">

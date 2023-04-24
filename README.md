@@ -1,4 +1,4 @@
-# social by emore systems
+# social by emore systems.
 mwimbi social group chat site
 landing page is the index
 login or register to create posts
