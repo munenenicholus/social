@@ -1,7 +1,7 @@
 <?php  
 
 //connecting to db
-if (isset($_POST['username']) && isset($_POST['email']) && isset($_POST['password'])) {
+if (isset($_POST['fname']) && isset($_POST['lname']) && isset($_POST['email']) && isset($_POST['password'])) {
 	include 'connect.php';
 	
 //validation
@@ -12,15 +12,16 @@ if (isset($_POST['username']) && isset($_POST['email']) && isset($_POST['passwor
 	   return $data;
 	}
 
-	$username = validate($_POST['username']);
+	$fname = validate($_POST['fname']);
+	$lname = validate($_POST['lname']);
 	$email = validate($_POST['email']);
 	$password = validate($_POST['password']);
 
-	if (empty($username) || empty($email) || empty($email)) {
+	if (empty($fname) || empty($lname) || empty($email) || empty($password)) {
 		header("Location: register.php");
 	}else {
 
-		$sql = "INSERT INTO users(username, email, password) VALUES('$username','$email','$password')";
+		$sql = "INSERT INTO users(fname, lname, email, password) VALUES('$fname','$lname','$email','$password')";
 		$result = mysqli_query($connect, $sql);
 
 		if ($result) {
